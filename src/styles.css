@@ -1,0 +1,37 @@
+
+:root {
+    --color-background: #E5E5E5;
+    --color-gray: #EAE9E9;
+    --color-babyblue: #28abb9;
+    --color-navyblue: #2d6187;
+    --color-sandgreen: #a8dda8;
+    --color-sandgreen-dark: #97C697;
+    --color-greenishwhite: #effad3;
+    --color-white: #ffffff;
+}
+
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background: var(--color-background);
+}

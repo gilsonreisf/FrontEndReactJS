@@ -1,0 +1,110 @@
+@media screen and (max-width: 1490px) {
+    div#registerbox {
+        width: 80%;
+    }
+    footer#main-footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    div#registerbox {
+        width: 80%;
+    }
+    footer#main-footer {
+        font-size: 15px;
+    }
+}
+@media (max-width: 767.98px) {
+    div#registerbox {
+        width: 90%;
+    }
+    footer#main-footer {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    div#registerbox {
+        width: 90%;
+    }
+    footer#main-footer {
+        font-size: 2px;
+    }
+}
+
+
+
+
+
+div#wrap-registerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#registerbox {
+    width: 50vh;
+    font-weight: bold;
+    background: var(--color-white);
+    color: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+div#register {
+    height: 60px;
+    width: 100%;
+    background: var(--color-navyblue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+div#btn-save {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+div#cadastrar-button {
+    justify-content: flex-end;
+}
+
+.image-upload>input {
+    display: none;
+    cursor: pointer;
+
+}
+
+.image-upload {
+    margin: 30px 30px;
+    background: var(--color-gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-upload img{
+    height: 60px;
+    margin: 15px 15px;
+    cursor: pointer;
+
+}
+input#exampleName1, #exampleEmail1, #examplePassword1 {
+    display: inline;
+    background: var(--color-gray);
+    cursor: default;
+   
+}

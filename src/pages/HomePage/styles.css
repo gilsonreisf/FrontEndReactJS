@@ -1,0 +1,66 @@
+/* max-width */
+
+@media screen and (max-width: 1490px) {
+    div#loginbox {
+        width: 80%;
+    }
+    footer#main-footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    div#loginbox {
+        width: 80%;
+    }
+    footer#main-footer {
+        font-size: 15px;
+    }
+}
+@media (max-width: 767.98px) {
+    div#loginbox {
+        width: 90%;
+    }
+    footer#main-footer {
+        font-size: 15px;
+    }
+}
+div#wrap-loginbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#loginbox {
+    width: 20%;
+    font-weight: bold;
+    background: var(--color-white);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+div#register {
+    height: 60px;
+    width: 100%;
+    background: var(--color-navyblue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+input#exampleEmail1, #examplePassword1 {
+    display: inline;
+    background: var(--color-gray);
+    cursor: default;
+   
+}

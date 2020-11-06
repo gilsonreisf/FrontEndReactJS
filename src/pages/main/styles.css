@@ -1,0 +1,25 @@
+div#advicebox {
+    color: var(--color-navyblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#advicebox h2 {
+    color: black;
+}
+
+button#adv-button {
+    color: var(--color-navyblue);
+    font-weight: bold;
+    height: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background: var(--color-sandgreen);
+    border-radius: 8px;
+}
