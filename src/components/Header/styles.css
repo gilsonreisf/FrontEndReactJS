@@ -8,8 +8,20 @@ header#main-header {
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
 h2{
     color: var(--color-babyblue);
+}
+.profile-box{
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-box img{
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

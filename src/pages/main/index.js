@@ -15,33 +15,6 @@ function RenderApi() {
     }, [conselho]);
 
 
-    // state = {
-    //     advice: '',
-    // }
-
-    // componentDidMount() {
-    //     this.fetchAdvice();
-    // }
-
-    // fetchAdvice = () => {
-    //     axios.get('https://api.adviceslip.com/advice')
-    //         .then((response) => {
-    //             const { advice } = response.data.slip;
-
-    //             this.setState({ advice });
-    //             // console.log(advice);
-    //         })
-    //         .catch((error) => {
-    //             console.log(error);
-    //         });
-    // }
-
-    // function handleAparecer() {
-    //     setAdvice(<h2 id="advice-text">{this.state.advice}</h2>);       
-    // }
-
-
-
     return (
         <>
             {/* 
@@ -65,19 +38,6 @@ function RenderApi() {
         </>
 
     );
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

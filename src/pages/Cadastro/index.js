@@ -41,10 +41,6 @@ class Cadastro extends Component {
     }
   };
 
- /* handleSignUp = e => {
-    e.preventDefault();
-    alert("Eu vou te registrar");
-  };**/
 
   render() {
     return (

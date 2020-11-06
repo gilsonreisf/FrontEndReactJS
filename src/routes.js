@@ -31,21 +31,5 @@ const Routes = () => (
     </BrowserRouter>
   );
 
-/*
-function Routes(){
-    return(
-        <BrowserRouter>
-            <Switch>
-                <Route path="/" exact component={HomePage}/>
-                <Route path="/cadastro" component={Cadastro}/>
-                <Route path="/api" component={main}/>
-                <Route path="/perfil" component={Perfil}/>
-                
-            </Switch>
-        </BrowserRouter>
-    );
-
-
-};**/
 
 export default Routes;
